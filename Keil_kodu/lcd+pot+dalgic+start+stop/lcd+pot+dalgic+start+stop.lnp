@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"lcd+pot+dalgic+start+stop\startup_stm32f401xc.o"
+"lcd+pot+dalgic+start+stop\main.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_it.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_msp.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_adc.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_adc_ex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_rcc.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_rcc_ex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_flash.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_flash_ex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_flash_ramfunc.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_gpio.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_dma_ex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_dma.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_pwr.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_pwr_ex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_cortex.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_exti.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_tim.o"
+"lcd+pot+dalgic+start+stop\stm32f4xx_hal_tim_ex.o"
+"lcd+pot+dalgic+start+stop\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "lcd+pot+dalgic+start+stop\lcd+pot+dalgic+start+stop.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lcd+pot+dalgic+start+stop.map" -o lcd+pot+dalgic+start+stop\lcd+pot+dalgic+start+stop.axf
